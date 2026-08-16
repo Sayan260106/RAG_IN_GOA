@@ -2,8 +2,8 @@
 Production LLM generation for HHGoa 2026.
 
 Generation order:
-1. Groq API (primary, if GROQ_API_KEY is configured)
-2. Local Ollama qwen2.5:3b (fallback)
+1. Groq API using openai/gpt-oss-120b (primary)
+2. Local Ollama qwen2.5:3b (secondary local fallback)
 3. Empty answer with diagnostic information if both fail
 
 The generator never fabricates an answer.
@@ -614,8 +614,8 @@ ANSWER:
         # ---------------------------------------------------------
 
         logger.info(
-            "Groq unavailable. "
-            "Trying Ollama fallback."
+            "Groq failed or is unavailable. "
+            "Trying Ollama as the secondary fallback."
         )
 
         result = await self._ollama(

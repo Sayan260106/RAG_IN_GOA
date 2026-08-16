@@ -10,9 +10,16 @@ speech:
   sample_rate: 16000
 
 llm:
-  provider: "gemini"
-  model: "gemini-2.5-flash"
+  provider: "groq"
+  model: "openai/gpt-oss-120b"
   temperature: 0.2
   max_output_tokens: 512
+
+dataset:
+  provider: "huggingface"
+  name: "ai4bharat/MSMARCO-XI"
+  split: "train"
+  streaming: true
+  max_samples: 500
 
 latency_budget_ms: 250
