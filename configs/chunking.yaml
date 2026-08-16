@@ -1,0 +1,8 @@
+strategy: "semantic_sliding"
+chunk_size: 350
+chunk_overlap: 60
+min_chunk_length: 50
+separator: "\n\n"
+metadata_enrichment:
+  extract_entities: true
+  domain: "goa_heritage_tourism"

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "query": "What is the history of Basilica of Bom Jesus in Old Goa?",
+    "category": "heritage",
+    "expected_keywords": ["St. Francis Xavier", "1605", "Baroque", "Old Goa", "UNESCO"]
+  },
+  {
+    "id": "q2",
+    "query": "What are the best beaches in South Goa for quiet sunsets?",
+    "category": "tourism",
+    "expected_keywords": ["Palolem", "Agonda", "Cola Beach", "Butterfly Beach", "Cavelossim"]
+  },
+  {
+    "id": "q3",
+    "query": "What is traditional Goan Fish Curry and what spices are used?",
+    "category": "cuisine",
+    "expected_keywords": ["Kokum", "Tirphal", "Coconut", "Kashmiri Chilli", "Xitt Codi"]
+  },
+  {
+    "id": "q4",
+    "query": "How do I reach Dudhsagar Waterfalls and what is the best season?",
+    "category": "nature",
+    "expected_keywords": ["Mandovi River", "Monsoon", "Bhagwan Mahavir Sanctuary", "Kulem", "Jeep Safari"]
+  },
+  {
+    "id": "q5",
+    "query": "What is the significance of the Goa Carnival festival?",
+    "category": "culture",
+    "expected_keywords": ["King Momo", "Lent", "Portuguese", "Float Parade", "February"]
+  }
+]

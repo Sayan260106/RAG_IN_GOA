@@ -1,0 +1,10 @@
+{
+  "name": "RAG in Goa",
+  "description": "Voice-activated RAG system for Goa knowledge retrieval, featuring low-latency speech processing, hybrid retrieval chunk viewer, confidence metrics, and grounded answering.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

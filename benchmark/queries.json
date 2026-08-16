@@ -1,0 +1,27 @@
+[
+  {
+    "id": "b1",
+    "query": "What are the primary factors affecting monsoon patterns in North Goa?",
+    "category": "geography"
+  },
+  {
+    "id": "b2",
+    "query": "Which spices define traditional Goan Xacuti and Fish Curry?",
+    "category": "cuisine"
+  },
+  {
+    "id": "b3",
+    "query": "What are the architectural highlights of Se Cathedral in Velha Goa?",
+    "category": "heritage"
+  },
+  {
+    "id": "b4",
+    "query": "Where can one spot Olive Ridley sea turtles nesting in Goa?",
+    "category": "wildlife"
+  },
+  {
+    "id": "b5",
+    "query": "Explain the role of King Momo in the Goa Carnival parade.",
+    "category": "culture"
+  }
+]

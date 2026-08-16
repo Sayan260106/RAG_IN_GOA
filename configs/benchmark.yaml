@@ -1,0 +1,11 @@
+benchmark:
+  total_queries: 100
+  concurrency: 5
+  warmup_runs: 10
+  metrics:
+    - "latency_p50"
+    - "latency_p95"
+    - "latency_p99"
+    - "mrr@5"
+    - "recall@5"
+    - "grounding_precision"

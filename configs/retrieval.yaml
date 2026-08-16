@@ -1,0 +1,41 @@
+hybrid:
+  enabled: true
+  fusion_method: "rrf"
+
+  # Reciprocal Rank Fusion constant
+  rrf_k: 60
+
+  # Dense retrieval = BGE-M3 / FAISS
+  dense_weight: 0.65
+
+  # Sparse retrieval = BM25
+  sparse_weight: 0.35
+
+
+faiss:
+  # BGE-M3 produces 1024-dimensional embeddings
+  index_type: "IndexFlatIP"
+  metric: "inner_product"
+  dimension: 1024
+
+  # Number of candidates returned from dense retrieval
+  top_k: 5
+
+
+bm25:
+  # BM25 parameters
+  k1: 1.5
+  b: 0.75
+
+  # Number of candidates returned from sparse retrieval
+  top_k: 5
+
+
+reranker:
+  enabled: true
+
+  # Multilingual reranker
+  model: "BAAI/bge-reranker-v2-m3"
+
+  # Number of results retained after reranking
+  top_n: 3

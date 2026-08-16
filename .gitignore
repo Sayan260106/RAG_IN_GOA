@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+
+# Frontend build output
+build/
+dist/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Python virtual environments and caches
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime artifacts
+logs/
+*.log
+
+# Models and generated indexes
+models/
+indexes/
+
+# Local/generated data
+data/raw/
+data/processed/
+benchmark/results/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Database files
+*.sqlite3
+*.db
